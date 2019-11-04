@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exercise#3</title>
+</head>
+<body>
+
+<style>
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    input[type=submit] {
+        background-color: #000000;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #000000;
+    }
+
+    .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+</style>
+
+<div align="center">
+    <h1>Peter D. Chung</h1>
+    <footer>
+        <p>Phone: 408-607-8044</p>
+        <p>Email: peter.d.chung@gmail.com</p>
+    </footer>
+    <h2>Bio</h2>
+    <p>My name is Peter Chung and I wish to become a front end developer.</p>
+    <p>The reason why is because I have the soul of an artist inside a body that can't draw or paint.</p>
+    <p>Through front-end development, I can express me creative side while also solving logic problems.</p>
+    <h2>Education</h2>
+    <p>Computer Science, B.S. from Portland State University</p>
+    <p>MCD Biology, B.S. from University of California, Santa Cruz</p>
+</div>
+
+<div align="left">
+    <section>
+        <h3>Languages</h3>
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Javascript, HTML, and CSS</li>
+            <li>C++</li>
+            <li>C</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Tools</h3>
+        <ul>
+            <li>IntelliJ</li>
+            <li>Github</li>
+            <li>Android Studio</li>
+            <li>Jira</li>
+        </ul>
+
+    </section>
+
+    <section>
+        <h3>Skills</h3>
+        <ul>
+            <li>Android Programming</li>
+            <li>Object-oriented Programming</li>
+            <li>Quicly learn and master new languages and technologies</li>
+            <li>Working with a team in an Agile environment</li>
+            <li>Proficiency in Korean</li>
+            <li>Proficiency in Japanese</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Project Links</h3>
+        <ul>
+            <li>
+                Smart Search
+                <a href="https://github.com/sneakwolf777/smart-search">Smart Search</a>
+            </li>
+            <li>
+                Quick Sort
+                <a href="https://github.com/sneakwolf777/partition-quick-sort">Quicksort</a>
+            </li>
+            <li>
+                Android Appointments
+                <a href="https://github.com/sneakwolf777/PortlandStateJavaSummer2019">Android Appointment</a>
+            </li>
+            <li>
+                ChocAn
+                <a href="https://github.com/Gilmore-PDX-CS/Team9">ChocAn</a>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Photo</h2>
+        <img src="https://www.rover.com/blog/wp-content/uploads/2016/09/Korean-Jindo.jpg"
+             alt="url photo"
+        >
+    </section>
+</div>
+
+<div class="container">
+    <form action="mailto:peter.d.chung@gmail.com">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
