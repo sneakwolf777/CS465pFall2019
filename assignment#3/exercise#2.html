@@ -11,54 +11,156 @@
 <body>
 
 <style>
-    .grid{
-        
+
+    body{
+        color: white;
+        padding: 10px;
     }
+
+    div{
+        padding-left: 10px;
+    }
+
+    .navy {
+        background-color: navy;
+    }
+
+    .purple {
+        background-color: purple;
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 12;
+    }
+
+    .item1 {
+        grid-row-start: 2;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .item2 {
+        grid-row-start: 2;
+        grid-column-start: 4;
+        grid-column-end: 7;
+    }
+
+    .item3 {
+        grid-row-start: 2;
+        grid-column-start: 7;
+        grid-column-end: 10;
+    }
+
+    .item4 {
+        grid-row-start: 2;
+        grid-column-start: 10;
+        grid-column-end: 13;
+    }
+
+    .darkcyan {
+        background-color: darkcyan;
+
+    }
+
+    .item5 {
+        grid-row-start: 3;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .item6 {
+        grid-row-start: 3;
+        grid-column-start: 5;
+        grid-column-end: 9;
+    }
+
+    .item7 {
+        grid-row-start: 3;
+        grid-column-start: 9;
+        grid-column-end: 13;
+    }
+
+    .item8 {
+        grid-row-start: 5;
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+
+    .yellowgreen {
+        background-color: yellowgreen;
+    }
+
+    .item9 {
+       grid-row-start: 4;
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+
+    .item10 {
+        grid-row-start: 4;
+        grid-column-start: 7;
+        grid-column-end: 13;
+    }
+
+    .salmon {
+        background-color: salmon;
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+
+    .item11 {
+        grid-row-start: 5;
+        grid-column-start: 7;
+        grid-column-end: 13;
+    }
+
+    .green {
+        background-color: green;
+        grid-column-start: 1;
+        grid-column-end: 13;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+        grid-template-rows: 30px 30px 30px 30px 30px 30px;
+        grid-column-gap: 5px;
+        grid-gap: 3px;
+        margin: 0;
+    }
+
 </style>
 
-<div class="grid">
-    <div class="row">
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-        <div class="col">span1</div>
-    </div>
+<div class="container">
 
-    <div class="row">
-        <div class="col">span3</div>
-        <div class="col">span3</div>
-        <div class="col">span3</div>
-        <div class="col">span3</div>
-    </div>
+   <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
+    <div class="navy">span1</div>
 
-    <div class="row">
-        <div class="col">span4</div>
-        <div class="col">span4</div>
-        <div class="col">span4</div>
-    </div>
+    <div class="purple item1">span3</div>
+    <div class="purple item2">span3</div>
+    <div class="purple item3">span3</div>
+    <div class="purple item4">span3</div>
 
-    <div class="row">
-        <div class="col">span6</div>
-        <div class="col">span6</div>
-    </div>
+    <div class="darkcyan item5">span4</div>
+    <div class="darkcyan item6">span4</div>
+    <div class="darkcyan item7">span4</div>
 
-    <div class="row">
-        <div class="col">span4</div>
-        <div class="col">span8</div>
-    </div>
+    <div class="yellowgreen item9">span6</div>
+    <div class="yellowgreen item10">span6</div>
 
-    <div class="row">
-        <div class="col">span12</div>
-    </div>
+    <div class="darkcyan item8">span4</div>
+    <div class="salmon item11">span8</div>
 
+    <div class="green">span12</div>
 </div>
 
 </body>
