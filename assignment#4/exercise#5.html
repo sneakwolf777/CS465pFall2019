@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 4, Exercise 5</title>
+</head>
+<body>
+
+<script>
+    function randomColor() {
+        var x = Math.floor(Math.random() * 256);
+        var y = Math.floor(Math.random() * 256);
+        var z = Math.floor(Math.random() * 256);
+        var color = "rgb(" + x + "," + y + "," + z + ")";
+        console.log(color);
+        document.body.style.background = color;
+    }
+</script>
+
+<div class="container" align="center">
+   <button onclick="randomColor()">CLICK ON ME!!!</button>
+</div>
+
+</body>
+</html>

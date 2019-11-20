@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 4, Exercise 4</title>
+</head>
+<body onresize="displayWindowSize()" onload="displayWindowSize()">
+
+<div id="width"></div>
+
+<div id="height"></div>
+
+<script>
+
+    function displayWindowSize() {
+        myWidth = window.innerWidth;
+        myHeight = window.innerHeight;
+        document.getElementById("width").innerHTML = "width: " + myWidth;
+        document.getElementById("height").innerHTML = "height: " + myHeight;
+    }
+
+</script>
+
+</body>
+</html>
