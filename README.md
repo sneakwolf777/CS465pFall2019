@@ -16,6 +16,7 @@
 
 
 #Week 3
+
 -Committed and pushed exercise#1.html and exercise#2.html
  to assignment#1 directory
  
@@ -24,6 +25,7 @@
 
 
 #Week 4
+
 -Did not work on any assignments
 
 -Prioritized on portfolio website for project 1
