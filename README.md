@@ -6,10 +6,14 @@
 
 -Learned and Fiddled around with HTML
 
+
+
 #Week 2
 -Worked on exercise 1 and 2 in Assignment 1
 
 -Practiced on commits and pushes on Github
+
+
 
 #Week 3
 -Committed and pushed exercise#1.html and exercise#2.html
@@ -17,10 +21,14 @@
  
 -Learned and Fiddled around with CSS
 
+
+
 #Week 4
 -Did not work on any assignments
 
 -Prioritized on portfolio website for project 1
+
+
 
 #Week 5
 -Did not work on any assignments
@@ -28,6 +36,8 @@
 -Prioritized on portfolio website for project 1
 
 -Learned and fiddled with Bootstrap CSS
+
+
 
 #Week 6
 
@@ -44,12 +54,16 @@
  assignment#2 directory
 
 -Learned and fiddled with javascript
+
+
  
 #Week 7
 -Finished exercises 1 and 2 in Assignment 3
 
 -Committed and pushed exercise#1.html, exercise#2.html to
  assignment#3 directory
+
+
 
 #Week 8
 -Finished exercises 3-7 in Assignment 3
