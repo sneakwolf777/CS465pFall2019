@@ -2,6 +2,7 @@
 #Peter Chung
 
 #Week 1
+
 -Finished setting up github repo for all assignments
 
 -Learned and Fiddled around with HTML
@@ -9,6 +10,7 @@
 
 
 #Week 2
+
 -Worked on exercise 1 and 2 in Assignment 1
 
 -Practiced on commits and pushes on Github
