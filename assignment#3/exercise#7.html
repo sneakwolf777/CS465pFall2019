@@ -10,5 +10,64 @@
 </head>
 <body>
 
+<style>
+
+    .wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        text-align: left;
+        color: white;
+    }
+
+    .wrapper > * {
+        padding: 10px;
+        flex: 1 100%;
+        border:7px white solid;
+        border-radius: 12px;
+    }
+
+    .header {
+        background: #4f4d4d;
+    }
+
+    .footer {
+        background: #4f4d4d;
+    }
+
+    .main {
+        background: #4f4d4d;
+        height: 200px;
+    }
+
+    .aside-1 {
+        background: #4f4d4d;
+    }
+
+    @media all and (min-width: 600px) {
+        .aside { flex: 1 0 0; }
+    }
+
+    @media all and (min-width: 800px) {
+        .main    { flex: 3 0px; }
+        .aside-1 { order: 1; }
+        .main    { order: 2; }
+        .footer  { order: 3; }
+    }
+
+    body {
+        padding: 2em;
+    }
+
+</style>
+
+<div class="wrapper">
+    <header class="header">One</header>
+    <article class="main">
+        <p>Three</p>
+    </article>
+    <aside class="aside aside-1">Two</aside>
+    <footer class="footer">Four</footer>
+</div>
+
 </body>
 </html>
