@@ -1,7 +1,7 @@
 # CS465pFall2019
-#Peter Chung
+# Peter Chung
 
-#Week 1
+# Week 1
 
 -Finished setting up github repo for all assignments
 
@@ -9,7 +9,7 @@
 
 
 
-#Week 2
+# Week 2
 
 -Worked on exercise 1 and 2 in Assignment 1
 
@@ -17,7 +17,7 @@
 
 
 
-#Week 3
+# Week 3
 
 -Committed and pushed exercise#1.html and exercise#2.html
  to assignment#1 directory
@@ -26,7 +26,7 @@
 
 
 
-#Week 4
+# Week 4
 
 -Did not work on any assignments
 
@@ -34,7 +34,7 @@
 
 
 
-#Week 5
+# Week 5
 -Did not work on any assignments
 
 -Prioritized on portfolio website for project 1
@@ -43,7 +43,7 @@
 
 
 
-#Week 6
+# Week 6
 
 -Finished exercise 3 in Assignment 1
 
@@ -61,7 +61,7 @@
 
 
  
-#Week 7
+# Week 7
 -Finished exercises 1 and 2 in Assignment 3
 
 -Committed and pushed exercise#1.html, exercise#2.html to
@@ -69,7 +69,7 @@
 
 
 
-#Week 8
+# Week 8
 -Finished exercises 3-7 in Assignment 3
 
 -Committed and pushed exercise exercise#3.html,
