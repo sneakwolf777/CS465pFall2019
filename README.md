@@ -45,7 +45,10 @@ Week 8
  exercise#4.html, exercise#5.html, exercise#6.html, and
  exercise#7.html to assignment#3 directory
 -Finished exercises 1-5 in Assignment 4
--Committed and pushed exercise exercise#3.html,
- exercise#4.html, and exercise#5.html to assignment#4
- directory
+-Committed and pushed exercise#1.html, exercise#2.html, 
+exercise#3.html, exercise#4.html, and exercise#5.html to 
+assignment#4 directory
+-Finished Assignment 5
+-Committed and pushed bin\www.js, public\index.html,
+ app.js, package.json, package-lock.json  
 
