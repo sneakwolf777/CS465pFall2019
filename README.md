@@ -85,4 +85,9 @@ assignment#4 directory
 -Finished Assignment 5
 
 -Committed and pushed bin\www.js, public\index.html,
- app.js, package.json, package-lock.json  
+ app.js, package.json, and package-lock.json  
+
+-Finished Assignment 6
+
+-Committed and pushed public/index.html, src/index.css,
+ src/index.js, package.json, and package-lock.json
