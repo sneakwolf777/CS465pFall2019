@@ -113,9 +113,9 @@
  grid item in exercise#4.html, exercise#5.html, and
  exercise#6.html
  
- -I reused code for the position and color of grid container
-  but used flex box to stretch and position each item
-  in exercise#7.html
+-I reused code for the position and color of container
+ but used flex box to stretch and position each item
+ in exercise#7.html
 
 -Finished exercises 1-5 in Assignment 4
 
