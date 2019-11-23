@@ -100,4 +100,11 @@ assignment#4 directory
   public/javascripts, public/stylesheets/style.css,
   routes/index.js, routes/users.js, views/error.put,
   views/index.pug, views/layout.pug, app.js,
-  package.json, package-lock.json 
+  package.json, package-lock.json
+  
+  -Completed Typescript Tutorial
+  
+  -Committed and pushed app.ts, app.js, app2.ts, app2.js,
+   app3.ts, app3.js, index.html, puppies.ts, puppies.js,
+   puppy.ts, puppy.js, Main.ts, Main.js, tsconfig.json,
+   and package.json 
