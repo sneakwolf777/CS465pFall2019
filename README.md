@@ -89,5 +89,15 @@ assignment#4 directory
 
 -Finished Assignment 6
 
+-Completed React Tutorial
+
 -Committed and pushed public/index.html, src/index.css,
  src/index.js, package.json, and package-lock.json
+ 
+ -Completed Express Tutorial
+ 
+ -Committed and pushed bin/www.js, public/images,
+  public/javascripts, public/stylesheets/style.css,
+  routes/index.js, routes/users.js, views/error.put,
+  views/index.pug, views/layout.pug, app.js,
+  package.json, package-lock.json 
